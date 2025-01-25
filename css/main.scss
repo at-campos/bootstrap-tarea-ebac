@@ -1,0 +1,22 @@
+$offWhite: #f1f1f1;
+
+.presentation {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+        color: $offWhite;
+        text-align: center;
+    }
+
+    &__description{
+        color: $offWhite;
+        text-align: center;
+    }
+}

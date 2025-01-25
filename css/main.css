@@ -1,0 +1,18 @@
+.presentation {
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 25%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.presentation__title {
+  color: #f1f1f1;
+  text-align: center;
+}
+.presentation__description {
+  color: #f1f1f1;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
