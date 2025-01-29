@@ -38,4 +38,14 @@
 }
 .locations__title {
   color: #f1f1f1;
+}
+
+.bottomNavbar {
+  background-color: #0f0f0f;
+}
+.bottomNavbar__brand {
+  padding-left: 25px;
+}
+.bottomNavbar__nav {
+  padding-right: 25px;
 }/*# sourceMappingURL=main.css.map */

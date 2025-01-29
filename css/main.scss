@@ -1,9 +1,12 @@
 $offWhite: #f1f1f1;
 $cocoaBrown: #2a2222;
+$codGray: #0f0f0f;
+$defaultPadding: 25px;
 
 .topNavbar {
     background-color: #2a2222;
 }
+
 .presentation {
     background-image: url("../img/banner.jpg");
     background-repeat: no-repeat;
@@ -28,7 +31,7 @@ $cocoaBrown: #2a2222;
 .locations {
     display: flex;
     background-color: $cocoaBrown;
-    padding: 25px;
+    padding: $defaultPadding;
 
     &__map {
         display: flex;
@@ -43,5 +46,16 @@ $cocoaBrown: #2a2222;
     }
     &__title {
         color: $offWhite;
+    }
+}
+
+.bottomNavbar {
+    background-color: $codGray;
+
+    &__brand {
+        padding-left: $defaultPadding;
+    }
+    &__nav {
+        padding-right: $defaultPadding;
     }
 }
