@@ -1,3 +1,7 @@
+.topNavbar {
+  background-color: #2a2222;
+}
+
 .presentation {
   background-image: url("../img/banner.jpg");
   background-repeat: no-repeat;
@@ -15,4 +19,23 @@
 .presentation__description {
   color: #f1f1f1;
   text-align: center;
+}
+
+.locations {
+  display: flex;
+  background-color: #2a2222;
+  padding: 25px;
+}
+.locations__map {
+  display: flex;
+  justify-content: flex-end;
+}
+.locations__container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.locations__title {
+  color: #f1f1f1;
 }/*# sourceMappingURL=main.css.map */
