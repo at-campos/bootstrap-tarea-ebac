@@ -1,0 +1,95 @@
+$offWhite: #f1f1f1;
+$cocoaBrown: #2a2222;
+$codGray: #0f0f0f;
+$defaultPadding: 25px;
+$title_font-family: 'Montserrat', Arial, Helvetica, sans-serif;;
+
+.topNavbar {
+    background-color: #2a2222;
+}
+
+.presentation {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+        color: $offWhite;
+        text-align: center;
+        font-family: $title_font-family;
+        font-weight: 800;
+    }
+
+    &__description{
+        color: $offWhite;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+.menuShortcut {
+    background-color: $offWhite;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__title {
+        color: #0f0f0f;
+        font-family: $title_font-family;
+    }
+}
+.locations {
+    display: flex;
+    background-color: $cocoaBrown;
+    padding: $defaultPadding;
+
+    &__map {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+    }
+    &__title {
+        color: $offWhite;
+        font-family: $title_font-family;
+    }
+}
+
+.accordion-item{
+    --bs-accordion-btn-bg: #f1f1f1;
+    --bs-accordion-active-bg: #2a2222;
+    --bs-accordion-active-color: #f1f1f1;
+}
+
+.bottomNavbar {
+    background-color: $codGray;
+
+    &__brand {
+        padding-left: $defaultPadding;
+    }
+    &__nav {
+        padding-right: $defaultPadding;
+    }
+}
+
+.menu {
+    background-color: $offWhite;
+
+    &__photo {
+        width: 75%;
+        height: 75%;
+    }
+
+}

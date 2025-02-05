@@ -1,0 +1,82 @@
+.topNavbar {
+  background-color: #2a2222;
+}
+
+.presentation {
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 25%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.presentation__title {
+  color: #f1f1f1;
+  text-align: center;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.presentation__description {
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.menuShortcut {
+  background-color: #f1f1f1;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menuShortcut__title {
+  color: #0f0f0f;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.locations {
+  display: flex;
+  background-color: #2a2222;
+  padding: 25px;
+}
+.locations__map {
+  display: flex;
+  justify-content: flex-end;
+}
+.locations__container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.locations__title {
+  color: #f1f1f1;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.accordion-item {
+  --bs-accordion-btn-bg: #f1f1f1;
+  --bs-accordion-active-bg: #2a2222;
+  --bs-accordion-active-color: #f1f1f1;
+}
+
+.bottomNavbar {
+  background-color: #0f0f0f;
+}
+.bottomNavbar__brand {
+  padding-left: 25px;
+}
+.bottomNavbar__nav {
+  padding-right: 25px;
+}
+
+.menu {
+  background-color: #f1f1f1;
+}
+.menu__photo {
+  width: 75%;
+  height: 75%;
+}/*# sourceMappingURL=main.css.map */
