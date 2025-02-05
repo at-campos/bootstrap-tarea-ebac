@@ -24,6 +24,19 @@
   font-size: 1.2em;
 }
 
+.menuShortcut {
+  background-color: #f1f1f1;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menuShortcut__title {
+  color: #0f0f0f;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
 .locations {
   display: flex;
   background-color: #2a2222;

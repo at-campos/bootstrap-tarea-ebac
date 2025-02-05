@@ -32,6 +32,19 @@ $title_font-family: 'Montserrat', Arial, Helvetica, sans-serif;;
     }
 }
 
+.menuShortcut {
+    background-color: $offWhite;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__title {
+        color: #0f0f0f;
+        font-family: $title_font-family;
+    }
+}
 .locations {
     display: flex;
     background-color: $cocoaBrown;
