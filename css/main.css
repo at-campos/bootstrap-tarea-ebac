@@ -15,10 +15,13 @@
 .presentation__title {
   color: #f1f1f1;
   text-align: center;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 800;
 }
 .presentation__description {
   color: #f1f1f1;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .locations {
@@ -38,6 +41,13 @@
 }
 .locations__title {
   color: #f1f1f1;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.accordion-item {
+  --bs-accordion-btn-bg: #f1f1f1;
+  --bs-accordion-active-bg: #2a2222;
+  --bs-accordion-active-color: #f1f1f1;
 }
 
 .bottomNavbar {

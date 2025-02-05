@@ -2,6 +2,7 @@ $offWhite: #f1f1f1;
 $cocoaBrown: #2a2222;
 $codGray: #0f0f0f;
 $defaultPadding: 25px;
+$title_font-family: 'Montserrat', Arial, Helvetica, sans-serif;;
 
 .topNavbar {
     background-color: #2a2222;
@@ -20,11 +21,14 @@ $defaultPadding: 25px;
     &__title {
         color: $offWhite;
         text-align: center;
+        font-family: $title_font-family;
+        font-weight: 800;
     }
 
     &__description{
         color: $offWhite;
         text-align: center;
+        font-size: 1.2em;
     }
 }
 
@@ -46,7 +50,14 @@ $defaultPadding: 25px;
     }
     &__title {
         color: $offWhite;
+        font-family: $title_font-family;
     }
+}
+
+.accordion-item{
+    --bs-accordion-btn-bg: #f1f1f1;
+    --bs-accordion-active-bg: #2a2222;
+    --bs-accordion-active-color: #f1f1f1;
 }
 
 .bottomNavbar {
