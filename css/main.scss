@@ -59,3 +59,13 @@ $defaultPadding: 25px;
         padding-right: $defaultPadding;
     }
 }
+
+.menu {
+    background-color: $offWhite;
+
+    &__photo {
+        width: 75%;
+        height: 75%;
+    }
+
+}

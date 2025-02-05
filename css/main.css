@@ -48,4 +48,12 @@
 }
 .bottomNavbar__nav {
   padding-right: 25px;
+}
+
+.menu {
+  background-color: #f1f1f1;
+}
+.menu__photo {
+  width: 75%;
+  height: 75%;
 }/*# sourceMappingURL=main.css.map */
