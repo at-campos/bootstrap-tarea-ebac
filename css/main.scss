@@ -86,10 +86,39 @@ $title_font-family: 'Montserrat', Arial, Helvetica, sans-serif;;
 
 .menu {
     background-color: $offWhite;
+    &__banner {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../img/menugunkan.jpg");
+        color: $offWhite;
 
+        &Text {
+            font-family: $title_font-family;
+        }
+    }
     &__photo {
         width: 75%;
         height: 75%;
     }
 
+    &__container {
+        background-color: $codGray;
+        padding-top: $defaultPadding;
+        padding-bottom: $defaultPadding;
+    }
+
+    &__description {
+        
+        &Title {
+            font-family: $title_font-family;
+            color: $offWhite;
+        }
+
+        &Text, &Price{
+            color: $offWhite;
+        }
+    }
 }
