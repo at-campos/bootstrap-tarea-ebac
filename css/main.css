@@ -82,6 +82,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   background-image: url("../img/menugunkan.jpg");
   color: #f1f1f1;
 }
